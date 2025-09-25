@@ -1,0 +1,33 @@
+METADATOS DEL PROCESAMIENTO - MODELO POVERTY
+==================================================
+
+Fecha de procesamiento: 2025-09-24 21:36:58
+Dataset original: Poverty Headcount Ratio
+Período de datos: 2011-2019
+Número de observaciones: 9
+Número de variables: 8
+
+VARIABLES INCLUIDAS:
+--------------------
+ 1. Year
+ 2. Poverty_Headcount_Ratio
+ 3. Year_normalized
+ 4. Year_squared
+ 5. Time_trend
+ 6. Poverty_lag1
+ 7. Poverty_Headcount_Ratio_change
+ 8. Period
+
+VARIABLES NUMÉRICAS: 7
+VARIABLES CATEGÓRICAS: 1
+
+FEATURE ENGINEERING APLICADO:
+- Variables temporales (Year_normalized, Year_squared, Time_trend)
+- Variables de lag (Poverty_lag1, etc.)
+- Variables de cambio porcentual (*_change)
+- Variables de interacción (si aplicable)
+- Variables categóricas por períodos
+
+ESTADÍSTICAS BÁSICAS:
+Poverty Headcount Ratio - Media: 35.30%
+Poverty Headcount Ratio - Rango: 34.10% - 37.30%

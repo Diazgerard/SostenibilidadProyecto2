@@ -1,0 +1,66 @@
+METADATOS DEL PROCESAMIENTO - MODELO DESEMPLEO
+=======================================================
+
+Fecha de procesamiento: 2025-09-24 21:40:02
+Datasets originales: Desempleo Total, Femenino, Masculino, Educación Básica y Avanzada
+Período de datos: 2011-2022
+Número de observaciones: 10
+Número de variables: 26
+
+VARIABLES INCLUIDAS:
+--------------------
+ 1. Year
+ 2. Unemployment_Total
+ 3. Unemployment_Female
+ 4. Unemployment_Male
+ 5. Unemployment_Basic_Education
+ 6. Unemployment_Advanced_Education
+ 7. Year_normalized
+ 8. Year_squared
+ 9. Time_trend
+10. Unemployment_Total_lag1
+11. Unemployment_Female_lag1
+12. Unemployment_Male_lag1
+13. Unemployment_Basic_Education_lag1
+14. Unemployment_Advanced_Education_lag1
+15. Unemployment_Total_change
+16. Unemployment_Female_change
+17. Unemployment_Male_change
+18. Unemployment_Basic_Education_change
+19. Unemployment_Advanced_Education_change
+20. Gender_Gap
+21. Gender_Ratio
+22. Gender_Average
+23. Education_Gap
+24. Education_Ratio
+25. Education_Average
+26. Period
+
+VARIABLES NUMÉRICAS: 25
+VARIABLES CATEGÓRICAS: 1
+
+FEATURE ENGINEERING APLICADO:
+- Variables temporales (Year_normalized, Year_squared, Time_trend)
+- Variables de desempleo por género y educación
+- Variables de lag (Unemployment_Total_lag1, etc.)
+- Variables de cambio porcentual (*_change)
+- Variables de interacción de género (Gender_Gap, Gender_Ratio, Gender_Average)
+- Variables de interacción educativa (Education_Gap, Education_Ratio, Education_Average)
+- Variables categóricas por períodos económicos
+
+ESTADÍSTICAS BÁSICAS DE DESEMPLEO:
+Unemployment Total - Media: 5.95%
+Unemployment Total - Rango: 3.75% - 8.77%
+Unemployment Female - Media: 8.32%
+Unemployment Male - Media: 4.61%
+Gender Gap (F-M) - Media: 3.71 p.p.
+Education Gap (Básica-Avanzada) - Media: -1.38 p.p.
+
+CORRELACIONES MÁS FUERTES CON DESEMPLEO TOTAL:
+   1. Gender_Average: 0.998 (Positiva)
+   2. Unemployment_Female: 0.978 (Positiva)
+   3. Unemployment_Basic_Education: 0.978 (Positiva)
+   4. Unemployment_Male: 0.960 (Positiva)
+   5. Education_Average: 0.959 (Positiva)
+   6. Gender_Gap: 0.853 (Positiva)
+   7. Unemployment_Advanced_Education: 0.793 (Positiva)

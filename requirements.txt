@@ -1,0 +1,68 @@
+# ===================================================================
+# REQUIREMENTS.TXT - PROYECTO DE SOSTENIBILIDAD COMPUTACIONAL
+# Análisis de Empleo, Igualdad de Género y Crecimiento Económico en Honduras
+# ===================================================================
+
+# ================== CORE DATA SCIENCE LIBRARIES ==================
+# Manipulación y análisis de datos
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ================== VISUALIZATION LIBRARIES ==================
+# Visualización estática
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Visualización interactiva
+plotly>=5.15.0
+
+# ================== MACHINE LEARNING LIBRARIES ==================
+# Scikit-learn para modelos de ML
+scikit-learn>=1.3.0
+
+# Estadísticas avanzadas
+scipy>=1.10.0
+statsmodels>=0.14.0
+
+# ================== FILE HANDLING ==================
+# Para leer archivos Excel (.xls, .xlsx)
+openpyxl>=3.1.0
+xlrd>=2.0.1
+
+# ================== JUPYTER NOTEBOOK SUPPORT ==================
+# Para ejecutar notebooks de Jupyter
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.25.0
+
+# ================== UTILITIES ==================
+# Para suprimir warnings
+warnings
+
+# Otros utilities comunes
+datetime
+os-sys
+pathlib
+
+# ================== OPTIONAL DEVELOPMENT TOOLS ==================
+# Para desarrollo y debugging (opcional)
+# black>=23.0.0
+# flake8>=6.0.0
+# pytest>=7.4.0
+
+# ================== NOTES ==================
+# Este archivo incluye todas las dependencias necesarias para:
+# 1. Análisis exploratorio de datos (AED)
+# 2. Modelos de regresión lineal y machine learning
+# 3. Visualizaciones estáticas e interactivas
+# 4. Manejo de archivos Excel y CSV
+# 5. Ejecución de notebooks de Jupyter
+#
+# Instalación:
+# pip install -r requirements.txt
+#
+# Para crear ambiente virtual (recomendado):
+# python -m venv venv
+# source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate     # Windows
+# pip install -r requirements.txt
